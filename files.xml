@@ -7,6 +7,8 @@
 
 	<files id="native-toolkit-pixman" >
 
+		<compilerflag value="-fno-integrated-as" />
+
 		<compilerflag value="-I${NATIVE_TOOLKIT_PATH}/pixman/src" />
 		<compilerflag value="-DHAVE_CONFIG_H" />
 		<compilerflag value="-DPIXMAN_NO_TLS" if="windows" />
