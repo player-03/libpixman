@@ -68,7 +68,7 @@
 		<file name="${NATIVE_TOOLKIT_PATH}/pixman/src/pixman-timer.c" />
 		<file name="${NATIVE_TOOLKIT_PATH}/pixman/src/pixman-trap.c" />
 		<file name="${NATIVE_TOOLKIT_PATH}/pixman/src/pixman-utils.c" />
-		<file name="${NATIVE_TOOLKIT_PATH}/pixman/src/pixman-x86.c" />
+		<file name="${NATIVE_TOOLKIT_PATH}/pixman/src/pixman-x86.c" if="HXCPP_X86 || HXCPP_X86_64" />
 
 	</files>
 
